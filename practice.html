@@ -2,10 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=0.1", user-scalable="yes">
     <style>
         body{
-            background-color: rgba(157, 11, 11, 0.3)
+            background-color: #fff8f0;
+            color: #333333;
         }
     </style>
     <style>
@@ -22,15 +23,15 @@
     <title>recipe</title>
 </head>
 <body>
-    <h1 style="text-align:center;
-         color:rgb(82, 7, 7);
-         background-color:rgb(240, 119, 119, .5);">SANDWICH</h1> 
+    <header>
+    <h1 style="text-align: center; color: #D4421E; font-size:60px;">SANDWICH.COM</h1> 
+    </header>
          <b>
           <link rel="stylesheet" href="practice.css">
             <nav>
-                <a href="#section1"style="color:black">Prepare at home</a>
-                <a href="#section2"style="color:black">Order Online</a>
-                <a href="#section3"style="color:black">Visit store </a>
+                <a href="#section1"style="color:white">Prepare at home</a>
+                <a href="#section2"style="color:white">Order Online</a>
+                <a href="#section3"style="color:white">Visit store </a>
             </nav>
             <hr>
          </b>
@@ -90,7 +91,7 @@
     <hr>
    <h2 style="text-align:center;" id="section2">Don't want to cook then Order Now!!</h2>
    <p>
-    <h4>- To order choose your website from links below:</h4>
+      <h4>- To order choose your website from links below:</h4>
         <ul>
             <li><a target="_blank" href="https://www.swiggy.com" style="color:black;">Swiggy</a></li>
             <li><a target="_blank" href="https://www.zomato.com"style="color:black;">Zomato</a></li>
@@ -134,21 +135,50 @@
         <hr>
         <h2 style="text-align:center" id="section3">Or grab your sandwich from the Nearest Store now!!</h2>
         <h3>-Details are mentioned below:</h3>
- <p>
-  <pre>
-      1.<b>Masters Sandwich:</b>
-        Address-Shop 08, Dev Harmony, Nhavi Pada Road.
-        Phone no -<a href="tel:+91 8446912646"> +91 8446912646</a>
-        Email address - <a href="mailto:mastersandwich06@gmail.com">mastersandwich06@gmail.com</a>
-      2.<b>Donald's Cafe:</b>
-        Address-Balram Singh Chauraha, Near UCO Bank.
-        Phone no - <a href="tel:+91 9528581500">+91 9528581500</a>
-        Email address - <a href="mailto:info@donaldscafe.in">info@donaldscafe.in</a> 
+      <p>
+       <pre>
+         1.<b>Masters Sandwich:</b>
+            Address-Shop 08, Dev Harmony, Nhavi Pada Road.
+            Phone no -<a href="tel:+91 8446912646"> +91 8446912646</a>
+            Email address - <a href="mailto:mastersandwich06@gmail.com">mastersandwich06@gmail.com</a>
+         2.<b>Donald's Cafe:</b>
+           Address-Balram Singh Chauraha, Near UCO Bank.
+           Phone no - <a href="tel:+91 9528581500">+91 9528581500</a>
+           Email address - <a href="mailto:info@donaldscafe.in">info@donaldscafe.in</a> 
 
-       <b> For more options of the stores present near you refer google maps</b>
-  </pre>
- </p>
- <hr>
-</p>
+          <b> For more options of the stores present near you refer google maps</b>
+       </pre>
+      </p>
+        <hr>
+    </p>
+    <h3>Page Feedback Form:</h3><br>
+    <form action="" accept-charset="UTF-16" autocomplete="on" enctype="multipart/form-data" target="_blank" method="post" >
+        <label for="comment">Add Comment : </label>
+        <input type="text" name="" placeholder="add comment" id="comment"><br><br/>
+        <label for="rate">Ratings</label>
+        <input type="range" name="" id="rate"><br><br />
+        <label for="photo">Share your sandwich photo</label>
+        <input type="image" id="photo"><br><br>
+        <label for="day">Want new recipes to be posted on which day of week :</label>
+        <select name="day" id="day">
+            <option value="Monday">Monday</option>
+            <option value="Tuesday">Tuesday</option>
+            <option value="Wednesday">Wednesday</option>
+            <option value="Thursday">Thursday</option>
+            <option value="Friday">Friday</option>
+            <option value="Saturday">Saturday</option>
+            <option value="Sunday">Sunday</option>
+        </select><br><br />
+        <label for="date">You are on this page on :</label>
+        <input type="date">
+        <br><br /><button type="submit">Share Response</button><br><br>
+    </form>
+    <hr>
+    <footer>
+     <pre>
+     Page by @Nandinipatniya 
+     for queries and suggestions contact us. 
+     </pre>
+    </footer>
 </body>
 </html>

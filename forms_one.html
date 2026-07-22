@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms one</title>
+</head>
+<body>
+   <h1>Forms in HTML</h1>
+   <!-- <form action=""></form> -->
+   <!-- here action defines ki jo bhi collected data  ya information hai woh backend m exactly kidhar jayegi  -->
+   <!-- and main form tag k andar saari details aati hai jo bhi user se lena hai -->
+
+   <!-- form contains one more attribute that is method -->
+   <!-- <form action="" method="get"></form> -->
+   <!-- in method and get the data is exactly visible whereas in post the data is encrypted  -->
+
+   <form action="" method="post" accept-charset="UTF-16" autocomplete="on" enctype="multipart/form-data" target="_blank">
+    <!-- here enctype defines that whether the form is accepting just text or also images and other kind of stuff -->
+      <label for="fname">Username</label>
+      <input type="text" placeholder="enter username" name="" id="fname"><br /><br />
+      <label for="lname">Password</label>
+      <input type="text" placeholder="enter password" name="" id="lname">
+      <button type="submit">Submit</button>
+   </form>
+</body>
+</html>

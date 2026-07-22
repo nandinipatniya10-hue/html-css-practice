@@ -1,12 +1,22 @@
-nav{
-    display:flex;
-    justify-content:center;
-    gap:30px;
-}    
-nav a{
-    text-decoration:none;
-    color:black;
-    background-color: rgb(240, 119, 119, .5);
-    font-size:20px;
-   
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background-color: #FFF8F0;
+  color: #333333;
+}
+
+nav {
+  background-color: #2C2C2C;
+  padding: 15px;
+}
+
+nav a {
+  color: #FFFFFF;
+  text-decoration: none;
+  margin: 0 20px;
 }

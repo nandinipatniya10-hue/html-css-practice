@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms one</title>
+</head>
+<body>
+   <h1>Forms in HTML</h1>
+   <!-- <form action=""></form> -->
+   <!-- here action defines ki jo bhi collected data  ya information hai woh backend m exactly kidhar jayegi  -->
+   <!-- and main form tag k andar saari details aati hai jo bhi user se lena hai -->
+
+   <!-- form contains one more attribute that is method -->
+   <!-- <form action="" method="get"></form> -->
+   <!-- in method and get the data is exactly visible whereas in post the data is encrypted  -->
+
+   <form action="" method="post" accept-charset="UTF-16" autocomplete="on" enctype="multipart/form-data" target="_blank">
+    <!-- here enctype defines that whether the form is accepting just text or also images and other kind of stuff -->
+      <label for="uname">Username</label>
+      <input type="text" placeholder="Set Username" name="" id="uname">
+      <input type="reset" value="reset"><br><br />
+      <label for="dob">DOB</label>
+      <input type="date" id="dob"><br><br />
+      <label for="p">Username</label>
+      <input type="password" placeholder="Set Password" name="" id="p"><br /><br />
+      <label for="b">Enter Blood Group</label>
+      <select name=" blood groups" id="">
+        <option value="A+">A+</option>
+        <option value="A-">A-</option>
+        <option value="B+">B+</option>
+        <option value="B-">B-</option>
+        <option value="AB+">AB+</option>
+        <option value="O+">O+</option>
+        <option value="O-">O-</option>
+      </select><br><br />
+      <label for="jt">Job Type</label>
+      <select name="" id="jt">
+        <option value="From Home">From Home</option>
+        <option value="select">From Office</option>
+      </select><br><br />
+      <label for="photo">Insert Photo</label>
+      <input type="image"><br><br />
+      <label for="number">Phone Number</label>
+      <input type="tel" placeholder="enter number" id="number"><br><br />
+      <button type="submit">Submit</button>
+   </form>
+</body>
+</html>
